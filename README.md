@@ -8,8 +8,9 @@ Repository Structure
 python-data-science-journal/
 │
 ├── 01_python_basics/         # Python fundamentals
-├── 02_oop/                   # Object-Oriented Programming
-├── 03_data_analysis/         # Data analysis with Pandas, NumPy
-├── 04_machine_learning/      # Machine learning models (scikit-learn, etc.)
-├── 05_projects/              # Practical mini-projects
+├── 02_function/              # Exercises and examples about Python functions
+├── 03_oop/                   # Object-Oriented Programming
+├── 04_data_analysis/         # Data analysis with Pandas, NumPy
+├── 05_machine_learning/      # Machine learning models (scikit-learn, etc.)
+├── 06_projects/              # Practical mini-projects
 └── notes/                    # Personal notes and theoretical summaries
