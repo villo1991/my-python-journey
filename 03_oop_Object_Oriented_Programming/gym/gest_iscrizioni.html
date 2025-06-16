@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module gest_iscrizioni</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">gest_iscrizioni</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cvilla%5Cpycharmprojects%5Cgymmarco%5Cpythonproject%5Cgest_iscrizioni.py">c:\users\villa\pycharmprojects\gymmarco\pythonproject\gest_iscrizioni.py</a></td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text"><a href="builtins.html#object">builtins.object</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="gest_iscrizioni.html#Iscrizioni">Iscrizioni</a>
+</dt></dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Iscrizioni">class <strong>Iscrizioni</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">Classe&nbsp;per&nbsp;gestire&nbsp;le&nbsp;iscrizioni&nbsp;di&nbsp;soci&nbsp;e&nbsp;attività.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Iscrizioni-__init__"><strong>__init__</strong></a>(self)</dt><dd><span class="code">Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</span></dd></dl>
+
+<dl><dt><a name="Iscrizioni-aggAttivitaCaricamento"><strong>aggAttivitaCaricamento</strong></a>(self, newAttivita)</dt><dd><span class="code">Aggiunge&nbsp;una&nbsp;nuova&nbsp;attivita&nbsp;alla&nbsp;listaAttivita.<br>
+&nbsp;<br>
+:param&nbsp;newAttivita:&nbsp;è&nbsp;un&nbsp;oggetto&nbsp;di&nbsp;tipo&nbsp;attivita</span></dd></dl>
+
+<dl><dt><a name="Iscrizioni-aggAttività"><strong>aggAttività</strong></a>(self, nomeAttivita, descAttivita, giorniAtt)</dt><dd><span class="code">Aggiunge&nbsp;una&nbsp;nuova&nbsp;attività&nbsp;alla&nbsp;lista.</span></dd></dl>
+
+<dl><dt><a name="Iscrizioni-aggOggAtt"><strong>aggOggAtt</strong></a>(self, oggetto)</dt></dl>
+
+<dl><dt><a name="Iscrizioni-aggSocio"><strong>aggSocio</strong></a>(self, id, nome, cognome, data_nascita)</dt><dd><span class="code">Aggiunge&nbsp;un&nbsp;nuovo&nbsp;socio&nbsp;alla&nbsp;lista.</span></dd></dl>
+
+<dl><dt><a name="Iscrizioni-caricaSocio"><strong>caricaSocio</strong></a>(self, id, nome, cognome, data_nascita, data_iscrizione)</dt><dd><span class="code">Carica&nbsp;un&nbsp;socio&nbsp;con&nbsp;tutti&nbsp;i&nbsp;dati&nbsp;disponibili.</span></dd></dl>
+
+<dl><dt><a name="Iscrizioni-getListAttivita"><strong>getListAttivita</strong></a>(self)</dt><dd><span class="code">Restituisce&nbsp;l'attributo&nbsp;listaAttivita</span></dd></dl>
+
+<dl><dt><a name="Iscrizioni-getListSoci"><strong>getListSoci</strong></a>(self)</dt><dd><span class="code">Restituisce&nbsp;l'attibuto&nbsp;listSoci.</span></dd></dl>
+
+<dl><dt><a name="Iscrizioni-numeroAttivita"><strong>numeroAttivita</strong></a>(self)</dt><dd><span class="code">Restituisce&nbsp;il&nbsp;numero&nbsp;totale&nbsp;di&nbsp;attività.</span></dd></dl>
+
+<dl><dt><a name="Iscrizioni-numeroSoci"><strong>numeroSoci</strong></a>(self)</dt><dd><span class="code">Restituisce&nbsp;il&nbsp;numero&nbsp;totale&nbsp;di&nbsp;soci.</span></dd></dl>
+
+<dl><dt><a name="Iscrizioni-visualizzaAttivita"><strong>visualizzaAttivita</strong></a>(self)</dt><dd><span class="code">Restituisce&nbsp;la&nbsp;lista&nbsp;delle&nbsp;attività.</span></dd></dl>
+
+<dl><dt><a name="Iscrizioni-visualizzaSoci"><strong>visualizzaSoci</strong></a>(self)</dt><dd><span class="code">Restituisce&nbsp;la&nbsp;lista&nbsp;dei&nbsp;soci.</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor functions-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td></tr>
+    
+<tr><td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt><a name="-controlloAnno"><strong>controlloAnno</strong></a>(stringa)</dt><dd><span class="code">Controlla&nbsp;che&nbsp;l'anno&nbsp;sia&nbsp;valido&nbsp;(compreso&nbsp;tra&nbsp;1930&nbsp;e&nbsp;l'anno&nbsp;attuale).<br>
+&nbsp;<br>
+:param:&nbsp;è&nbsp;la&nbsp;&nbsp;stringa&nbsp;che&nbsp;accetta&nbsp;la&nbsp;funzine.<br>
+:return:&nbsp;ritorna&nbsp;il&nbsp;valore&nbsp;stringa&nbsp;trasformato&nbsp;in&nbsp;int</span></dd></dl>
+ <dl><dt><a name="-controlloAtt"><strong>controlloAtt</strong></a>(stringa, oggetto)</dt><dd><span class="code">Controlla&nbsp;se&nbsp;l'attività&nbsp;inserita&nbsp;è&nbsp;valida.<br>
+&nbsp;<br>
+:param&nbsp;stringa:&nbsp;Il&nbsp;numero&nbsp;dell'attività&nbsp;inserito&nbsp;dall'utente&nbsp;sotto&nbsp;forma&nbsp;di&nbsp;stringa.<br>
+:param&nbsp;oggetto:&nbsp;L'oggetto&nbsp;che&nbsp;contiene&nbsp;il&nbsp;numero&nbsp;totale&nbsp;delle&nbsp;attività.<br>
+:return:&nbsp;Il&nbsp;numero&nbsp;dell'attività&nbsp;se&nbsp;è&nbsp;valido,&nbsp;altrimenti&nbsp;False.</span></dd></dl>
+ <dl><dt><a name="-controlloAttivita"><strong>controlloAttivita</strong></a>(oggPalestra, nomeAttivita, descrizioneAttivita, giorniSvolgimento)</dt><dd><span class="code">Controlla&nbsp;che&nbsp;il&nbsp;attività&nbsp;non&nbsp;sia&nbsp;gia&nbsp;presente&nbsp;nell'oggetto&nbsp;palestra.<br>
+&nbsp;<br>
+:param&nbsp;oggPalestra:&nbsp;rappresente&nbsp;l'oggetto&nbsp;che&nbsp;gestiste&nbsp;le&nbsp;liste&nbsp;della&nbsp;palestra<br>
+:type&nbsp;oggPalestra:&nbsp;oggetto&nbsp;di&nbsp;tipo&nbsp;Iscrizoni<br>
+:param&nbsp;nomeAttivita:&nbsp;rappresenta&nbsp;il&nbsp;nome&nbsp;attività<br>
+:type&nbsp;nomeAttivita:&nbsp;str<br>
+:param&nbsp;descrizioneAttivita:&nbsp;descive&nbsp;l'attività<br>
+:type&nbsp;descrizioneAttivita:&nbsp;str<br>
+:param&nbsp;giorniSvolgimento:&nbsp;indica&nbsp;i&nbsp;giorni&nbsp;di&nbsp;svolgimento<br>
+:type&nbsp;giorniSvolgimento:&nbsp;str<br>
+:return:&nbsp;None</span></dd></dl>
+ <dl><dt><a name="-controlloGionro"><strong>controlloGionro</strong></a>(stringa, anno, mese)</dt><dd><span class="code">Controlla&nbsp;che&nbsp;il&nbsp;giorno&nbsp;sia&nbsp;valido&nbsp;per&nbsp;il&nbsp;mese&nbsp;e&nbsp;l'anno&nbsp;dati.<br>
+&nbsp;<br>
+:param&nbsp;stringa:è&nbsp;la&nbsp;&nbsp;stringa&nbsp;che&nbsp;accetta&nbsp;la&nbsp;funzine.<br>
+:param&nbsp;anno:&nbsp;deve&nbsp;essere&nbsp;una&nbsp;quantita&nbsp;numerica&nbsp;int.<br>
+:param&nbsp;mese:&nbsp;deve&nbsp;essere&nbsp;una&nbsp;quantita&nbsp;numerica&nbsp;int.<br>
+:return:&nbsp;ritorna&nbsp;il&nbsp;valore&nbsp;stringa&nbsp;trasformato&nbsp;in&nbsp;int&nbsp;se&nbsp;valido.</span></dd></dl>
+ <dl><dt><a name="-controlloId"><strong>controlloId</strong></a>(stringa, oggetto)</dt><dd><span class="code">Controlla&nbsp;che&nbsp;l'ID&nbsp;del&nbsp;socio&nbsp;sia&nbsp;valido.<br>
+&nbsp;<br>
+:param&nbsp;stringa:&nbsp;Stringa&nbsp;contenente&nbsp;il&nbsp;valore&nbsp;dell'ID&nbsp;da&nbsp;verificare.<br>
+:param&nbsp;oggetto:&nbsp;Oggetto&nbsp;contenente&nbsp;la&nbsp;lista&nbsp;dei&nbsp;soci.<br>
+:return:&nbsp;ID&nbsp;valido&nbsp;se&nbsp;presente,&nbsp;altrimenti&nbsp;False.</span></dd></dl>
+ <dl><dt><a name="-controlloMese"><strong>controlloMese</strong></a>(stringa)</dt><dd><span class="code">Controlla&nbsp;che&nbsp;il&nbsp;mese&nbsp;inserito&nbsp;come&nbsp;stringa&nbsp;sia&nbsp;valido.<br>
+&nbsp;<br>
+:param:&nbsp;è&nbsp;la&nbsp;&nbsp;stringa&nbsp;che&nbsp;accetta&nbsp;la&nbsp;funzine.<br>
+:return:&nbsp;ritorna&nbsp;il&nbsp;valore&nbsp;stringa&nbsp;trasformato&nbsp;in&nbsp;int.</span></dd></dl>
+ <dl><dt><a name="-controlloSocio"><strong>controlloSocio</strong></a>(oggPalestra, nome, cognome, idSocio, data_nascita)</dt><dd><span class="code">Controlla&nbsp;che&nbsp;il&nbsp;socio&nbsp;non&nbsp;sia&nbsp;gia&nbsp;presente&nbsp;nell'oggetto&nbsp;palestra.<br>
+&nbsp;<br>
+:param&nbsp;oggPalestra:&nbsp;rappresente&nbsp;l'oggetto&nbsp;che&nbsp;gestiste&nbsp;le&nbsp;liste&nbsp;della&nbsp;palestra<br>
+:type&nbsp;oggPalestra:&nbsp;oggetto&nbsp;di&nbsp;tipo&nbsp;Iscrizoni<br>
+:param&nbsp;nome:&nbsp;nome&nbsp;socio<br>
+:type&nbsp;nome:&nbsp;str<br>
+:param&nbsp;cognome:&nbsp;cognome&nbsp;socio<br>
+:type&nbsp;cognome:&nbsp;str<br>
+:param&nbsp;idSocio:&nbsp;rappresenta&nbsp;l'id&nbsp;univoco&nbsp;di&nbsp;ogni&nbsp;socio<br>
+:type&nbsp;idSocio:&nbsp;int<br>
+:param&nbsp;data_nascita:&nbsp;è&nbsp;la&nbsp;data&nbsp;di&nbsp;nascita&nbsp;del&nbsp;socio<br>
+:type&nbsp;data_nascita:&nbsp;datetime<br>
+:return:&nbsp;None</span></dd></dl>
+ <dl><dt><a name="-inserimentoAnno"><strong>inserimentoAnno</strong></a>(stringa)</dt><dd><span class="code">Valuta&nbsp;se&nbsp;la&nbsp;stringa&nbsp;inserita&nbsp;a&nbsp;video&nbsp;è&nbsp;un&nbsp;in&nbsp;intero&nbsp;positivo,&nbsp;se&nbsp;non&nbsp;lo&nbsp;è&nbsp;continua&nbsp;a&nbsp;riproporre&nbsp;di&nbsp;inserire&nbsp;la&nbsp;stringa&nbsp;finché&nbsp;è&nbsp;valida&nbsp;per&nbsp;la&nbsp;conversione<br>
+&nbsp;<br>
+:param&nbsp;stringa:&nbsp;stringa&nbsp;da&nbsp;testare<br>
+:return:&nbsp;ritorna&nbsp;il&nbsp;valore&nbsp;della&nbsp;stringa&nbsp;convertito&nbsp;in&nbsp;int</span></dd></dl>
+ <dl><dt><a name="-inserimentoAtt"><strong>inserimentoAtt</strong></a>(stringa, oggetto)</dt><dd><span class="code">Valuta&nbsp;se&nbsp;la&nbsp;stringa&nbsp;inserita&nbsp;a&nbsp;video&nbsp;è&nbsp;un&nbsp;in&nbsp;intero&nbsp;positivo,&nbsp;se&nbsp;non&nbsp;lo&nbsp;è&nbsp;continua&nbsp;a&nbsp;riproporre&nbsp;di&nbsp;inserire&nbsp;la&nbsp;stringa&nbsp;finché&nbsp;è&nbsp;valida&nbsp;per&nbsp;la&nbsp;conversione<br>
+&nbsp;<br>
+:param&nbsp;stringa:&nbsp;stringa&nbsp;da&nbsp;testare<br>
+:return:&nbsp;ritorna&nbsp;il&nbsp;valore&nbsp;della&nbsp;stringa&nbsp;convertito&nbsp;in&nbsp;int</span></dd></dl>
+ <dl><dt><a name="-inserimentoGiorno"><strong>inserimentoGiorno</strong></a>(stringa, anno, mese)</dt><dd><span class="code">Valuta&nbsp;se&nbsp;la&nbsp;stringa&nbsp;inserita&nbsp;a&nbsp;video&nbsp;è&nbsp;un&nbsp;in&nbsp;intero&nbsp;positivo,&nbsp;se&nbsp;non&nbsp;lo&nbsp;è&nbsp;continua&nbsp;a&nbsp;riproporre&nbsp;di&nbsp;inserire&nbsp;la&nbsp;stringa&nbsp;finché&nbsp;è&nbsp;valida&nbsp;per&nbsp;la&nbsp;conversione<br>
+&nbsp;<br>
+:param&nbsp;stringa:&nbsp;stringa&nbsp;da&nbsp;testare<br>
+:return:&nbsp;ritorna&nbsp;il&nbsp;valore&nbsp;della&nbsp;stringa&nbsp;convertito&nbsp;in&nbsp;int</span></dd></dl>
+ <dl><dt><a name="-inserimentoId"><strong>inserimentoId</strong></a>(stringa, oggetto)</dt><dd><span class="code">Valuta&nbsp;se&nbsp;la&nbsp;stringa&nbsp;inserita&nbsp;a&nbsp;video&nbsp;è&nbsp;un&nbsp;in&nbsp;intero&nbsp;positivo,&nbsp;se&nbsp;non&nbsp;lo&nbsp;è&nbsp;continua&nbsp;a&nbsp;riproporre&nbsp;di&nbsp;inserire&nbsp;la&nbsp;stringa&nbsp;finché&nbsp;è&nbsp;valida&nbsp;per&nbsp;la&nbsp;conversione<br>
+&nbsp;<br>
+:param&nbsp;stringa:&nbsp;stringa&nbsp;da&nbsp;testare<br>
+:return:&nbsp;ritorna&nbsp;il&nbsp;valore&nbsp;della&nbsp;stringa&nbsp;convertito&nbsp;in&nbsp;int</span></dd></dl>
+ <dl><dt><a name="-inserimentoMese"><strong>inserimentoMese</strong></a>(stringa)</dt><dd><span class="code">Valuta&nbsp;se&nbsp;la&nbsp;stringa&nbsp;inserita&nbsp;a&nbsp;video&nbsp;è&nbsp;un&nbsp;in&nbsp;intero&nbsp;positivo,&nbsp;se&nbsp;non&nbsp;lo&nbsp;è&nbsp;continua&nbsp;a&nbsp;riproporre&nbsp;di&nbsp;inserire&nbsp;la&nbsp;stringa&nbsp;finché&nbsp;è&nbsp;valida&nbsp;per&nbsp;la&nbsp;conversione<br>
+&nbsp;<br>
+:param&nbsp;stringa:&nbsp;stringa&nbsp;da&nbsp;testare<br>
+:return:&nbsp;ritorna&nbsp;il&nbsp;valore&nbsp;della&nbsp;stringa&nbsp;convertito&nbsp;in&nbsp;int</span></dd></dl>
+ <dl><dt><a name="-listaTodatetime"><strong>listaTodatetime</strong></a>(stringa)</dt><dd><span class="code">Converte&nbsp;una&nbsp;stringa&nbsp;in&nbsp;formato&nbsp;data&nbsp;e&nbsp;ora&nbsp;in&nbsp;un&nbsp;oggetto&nbsp;datetime.<br>
+&nbsp;<br>
+:param&nbsp;stringa:&nbsp;La&nbsp;data&nbsp;e&nbsp;l'ora&nbsp;in&nbsp;formato&nbsp;stringa,&nbsp;separata&nbsp;da&nbsp;spazio&nbsp;(es.&nbsp;"YYYY-MM-DD&nbsp;HH:MM:SS").<br>
+:return:&nbsp;Un&nbsp;oggetto&nbsp;datetime&nbsp;corrispondente&nbsp;alla&nbsp;data&nbsp;e&nbsp;ora&nbsp;fornite.</span></dd></dl>
+</td></tr></table>
+</body></html>

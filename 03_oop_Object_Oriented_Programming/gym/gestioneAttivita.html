@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module gestioneAttivita</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">gestioneAttivita</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cvilla%5Cpycharmprojects%5Cgymmarco%5Cpythonproject%5Cgestioneattivita.py">c:\users\villa\pycharmprojects\gymmarco\pythonproject\gestioneattivita.py</a></td></tr></table>
+    <p><span class="code">#dizDescAttivita&nbsp;=&nbsp;{"sumo"&nbsp;:&nbsp;{"desc":&nbsp;"buttare&nbsp;fuori&nbsp;in&nbsp;nemico&nbsp;dal&nbsp;ring",&nbsp;"giorni":&nbsp;"L,MA,ME,G,V,S,D"}}<br>
+#dizDescAttivita[self.<strong>__nomeAttivita</strong>].get("desc",&nbsp;"attività&nbsp;da&nbsp;inseite&nbsp;nel&nbsp;data&nbsp;base")<br>
+#dizDescAttivita[self.<strong>__nomeAttivita</strong>].get("giorni",&nbsp;"attività&nbsp;da&nbsp;inseite&nbsp;nel&nbsp;data&nbsp;base")</span></p>
+<p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text"><a href="builtins.html#object">builtins.object</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="gestioneAttivita.html#Attivita">Attivita</a>
+</dt></dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Attivita">class <strong>Attivita</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">Classe&nbsp;che&nbsp;rappresenta&nbsp;un'attività&nbsp;con&nbsp;nome,&nbsp;descrizione,&nbsp;giorni&nbsp;di&nbsp;svolgimento&nbsp;e&nbsp;iscritti.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Attivita-__init__"><strong>__init__</strong></a>(self)</dt><dd><span class="code">Inizializza&nbsp;un&nbsp;oggetto&nbsp;<a href="#Attivita">Attivita</a>&nbsp;con&nbsp;valori&nbsp;predefiniti.<br>
+Il&nbsp;nome,&nbsp;la&nbsp;descrizione&nbsp;e&nbsp;i&nbsp;giorni&nbsp;dell'attività&nbsp;sono&nbsp;inizializzati&nbsp;a&nbsp;None.<br>
+La&nbsp;lista&nbsp;degli&nbsp;iscritti&nbsp;è&nbsp;inizialmente&nbsp;vuota.</span></dd></dl>
+
+<dl><dt><a name="Attivita-__str__"><strong>__str__</strong></a>(self)</dt><dd><span class="code">Restituisce&nbsp;una&nbsp;rappresentazione&nbsp;in&nbsp;stringa&nbsp;dell'oggetto&nbsp;<a href="#Attivita">Attivita</a>,&nbsp;includendo&nbsp;gli&nbsp;iscritti.<br>
+&nbsp;<br>
+:return:&nbsp;Stringa&nbsp;contenente&nbsp;nome,&nbsp;descrizione,&nbsp;giorni&nbsp;e&nbsp;iscritti&nbsp;all'attività.</span></dd></dl>
+
+<dl><dt><a name="Attivita-getDescAttivita"><strong>getDescAttivita</strong></a>(self)</dt><dd><span class="code">Restituisce&nbsp;la&nbsp;descrizione&nbsp;dell'attività.<br>
+&nbsp;<br>
+:return:&nbsp;Descrizione&nbsp;dell'attività.</span></dd></dl>
+
+<dl><dt><a name="Attivita-getGiorniAttivita"><strong>getGiorniAttivita</strong></a>(self)</dt><dd><span class="code">Restituisce&nbsp;i&nbsp;giorni&nbsp;in&nbsp;cui&nbsp;si&nbsp;svolge&nbsp;l'attività.<br>
+&nbsp;<br>
+:return:&nbsp;Giorni&nbsp;dell'attività.</span></dd></dl>
+
+<dl><dt><a name="Attivita-getIscitti"><strong>getIscitti</strong></a>(self)</dt><dd><span class="code">Restituisce&nbsp;la&nbsp;lista&nbsp;degli&nbsp;iscritti&nbsp;all'attività.<br>
+&nbsp;<br>
+:return:&nbsp;Lista&nbsp;degli&nbsp;iscritti.</span></dd></dl>
+
+<dl><dt><a name="Attivita-getNomeAttivita"><strong>getNomeAttivita</strong></a>(self)</dt><dd><span class="code">Restituisce&nbsp;il&nbsp;nome&nbsp;dell'attività.<br>
+&nbsp;<br>
+:return:&nbsp;Nome&nbsp;dell'attività.</span></dd></dl>
+
+<dl><dt><a name="Attivita-iscriviSocio"><strong>iscriviSocio</strong></a>(self, iscritto)</dt><dd><span class="code">Aggiunge&nbsp;un&nbsp;socio&nbsp;alla&nbsp;lista&nbsp;degli&nbsp;iscritti&nbsp;all'attività.<br>
+&nbsp;<br>
+:param&nbsp;iscritto:&nbsp;Nome&nbsp;del&nbsp;socio&nbsp;da&nbsp;iscrivere.</span></dd></dl>
+
+<dl><dt><a name="Attivita-setAttivita"><strong>setAttivita</strong></a>(self, nomeAttivita, descAttivita, giorniAtt)</dt><dd><span class="code">Imposta&nbsp;i&nbsp;valori&nbsp;dell'attività.<br>
+&nbsp;<br>
+:param&nbsp;nomeAttivita:&nbsp;Nome&nbsp;dell'attività.<br>
+:param&nbsp;descAttivita:&nbsp;Descrizione&nbsp;dell'attività.<br>
+:param&nbsp;giorniAtt:&nbsp;Giorni&nbsp;in&nbsp;cui&nbsp;si&nbsp;svolge&nbsp;l'attività.</span></dd></dl>
+
+<dl><dt><a name="Attivita-visualizzaDatiAtt"><strong>visualizzaDatiAtt</strong></a>(self)</dt><dd><span class="code">Restituisce&nbsp;una&nbsp;stringa&nbsp;con&nbsp;i&nbsp;dati&nbsp;principali&nbsp;dell'attività.<br>
+&nbsp;<br>
+:return:&nbsp;Stringa&nbsp;contenente&nbsp;nome,&nbsp;descrizione&nbsp;e&nbsp;giorni&nbsp;dell'attività.</span></dd></dl>
+
+<dl><dt><a name="Attivita-visualizzaPartecipanti"><strong>visualizzaPartecipanti</strong></a>(self)</dt><dd><span class="code">Restituisce&nbsp;una&nbsp;lista&nbsp;dei&nbsp;partecipanti&nbsp;iscritti&nbsp;all'attività.<br>
+&nbsp;<br>
+:return:&nbsp;Lista&nbsp;dei&nbsp;partecipanti.</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>
