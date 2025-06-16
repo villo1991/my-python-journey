@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module classVideoteca</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">classVideoteca</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cvillo%5Cpycharmprojects%5Cprogvideoteca%5Cclassvideoteca.py">c:\users\villo\pycharmprojects\progvideoteca\classvideoteca.py</a></td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor pkg-content-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Modules</strong></td></tr>
+    
+<tr><td class="decor pkg-content-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><table><tr><td class="multicolumn"><a href="copy.html">copy</a><br>
+</td><td class="multicolumn"></td><td class="multicolumn"></td><td class="multicolumn"></td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text"><a href="builtins.html#object">builtins.object</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="classVideoteca.html#Videoteca">Videoteca</a>
+</dt></dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Videoteca">class <strong>Videoteca</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">Questa&nbsp;classe&nbsp;gestisce&nbsp;le&nbsp;funzioni&nbsp;di&nbsp;una&nbsp;videoteca<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Videoteca-__init__"><strong>__init__</strong></a>(self)</dt><dd><span class="code">il&nbsp;costruttore&nbsp;inizalizza&nbsp;una&nbsp;lista&nbsp;che&nbsp;servira&nbsp;a&nbsp;contenere&nbsp;gli&nbsp;oggetti&nbsp;della&nbsp;class&nbsp;Film</span></dd></dl>
+
+<dl><dt><a name="Videoteca-__str__"><strong>__str__</strong></a>(self)</dt><dd><span class="code">rappresenta&nbsp;come&nbsp;e&nbsp;cosa&nbsp;deve&nbsp;essere&nbsp;stapato&nbsp;quando&nbsp;viene&nbsp;evocato&nbsp;l'oggetto&nbsp;<a href="#Videoteca">Videoteca</a><br>
+&nbsp;<br>
+:return:&nbsp;ritorna&nbsp;la&nbsp;lista&nbsp;__inventario&nbsp;composta&nbsp;da&nbsp;oggetti</span></dd></dl>
+
+<dl><dt><a name="Videoteca-add_film"><strong>add_film</strong></a>(self, film)</dt><dd><span class="code">Aggiunge&nbsp;un&nbsp;film&nbsp;alla&nbsp;lista&nbsp;__inventario<br>
+&nbsp;<br>
+:param&nbsp;film:&nbsp;potenzialmente&nbsp;può&nbsp;aggiungere&nbsp;ogni&nbsp;cosa&nbsp;alla&nbsp;lisata&nbsp;invetario,&nbsp;però&nbsp;in&nbsp;questo&nbsp;caso&nbsp;vogliamo&nbsp;che&nbsp;sia&nbsp;un&nbsp;oggetto&nbsp;Film,&nbsp;perchè&nbsp;altrimenti&nbsp;nei&nbsp;passi&nbsp;successivi&nbsp;il&nbsp;prgramma&nbsp;andrebbe&nbsp;in&nbsp;errore</span></dd></dl>
+
+<dl><dt><a name="Videoteca-del_film"><strong>del_film</strong></a>(self, titolo)</dt><dd><span class="code">cancella&nbsp;il&nbsp;film&nbsp;con&nbsp;il&nbsp;titolo&nbsp;corrispondente&nbsp;e&nbsp;rutorna&nbsp;anche&nbsp;dei&nbsp;messaggi&nbsp;di&nbsp;controllo<br>
+&nbsp;<br>
+:param&nbsp;titolo:&nbsp;indica&nbsp;il&nbsp;titolo&nbsp;del&nbsp;film&nbsp;che&nbsp;si&nbsp;vuole&nbsp;cancellare<br>
+:return:&nbsp;ritorna&nbsp;il&nbsp;messaggio&nbsp;film&nbsp;cancellato&nbsp;se&nbsp;trova&nbsp;il&nbsp;film&nbsp;altrimenti&nbsp;ritorna&nbsp;il&nbsp;messaggio&nbsp;nessuna&nbsp;corrispondenza</span></dd></dl>
+
+<dl><dt><a name="Videoteca-get_film"><strong>get_film</strong></a>(self, titolo)</dt><dd><span class="code">Ha&nbsp;la&nbsp;funzione&nbsp;di&nbsp;cercare&nbsp;il&nbsp;titolo&nbsp;nella&nbsp;lista&nbsp;__inventario&nbsp;e&nbsp;ritornare&nbsp;l'oggetto&nbsp;corrispondente<br>
+&nbsp;<br>
+:param&nbsp;titolo:&nbsp;rapprenta&nbsp;una&nbsp;stringa&nbsp;che&nbsp;viene&nbsp;utilizzata&nbsp;per&nbsp;cercare&nbsp;gli&nbsp;oggetti&nbsp;film&nbsp;paragonandola&nbsp;a&nbsp;__titolo<br>
+:return:&nbsp;ritorna&nbsp;l'oggetto&nbsp;Film&nbsp;nel&nbsp;caso&nbsp;in&nbsp;cuoi&nbsp;abbiamo&nbsp;il&nbsp;match&nbsp;altrimenti&nbsp;ritorna&nbsp;stringa&nbsp;con&nbsp;il&nbsp;messaggio&nbsp;"Titolo&nbsp;non&nbsp;trovato"</span></dd></dl>
+
+<dl><dt><a name="Videoteca-get_videoteca"><strong>get_videoteca</strong></a>(self)</dt><dd><span class="code">Questa&nbsp;get&nbsp;ritorna&nbsp;la&nbsp;lista&nbsp;__invetario<br>
+&nbsp;<br>
+:return:&nbsp;ritorna&nbsp;la&nbsp;lista&nbsp;__invetario</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>
