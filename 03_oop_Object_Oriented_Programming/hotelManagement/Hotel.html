@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module Hotel</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">Hotel</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cvillo%5Cpycharmprojects%5Chotel_vers_1%5Chotel.py">c:\users\villo\pycharmprojects\hotel_vers_1\hotel.py</a></td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor pkg-content-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Modules</strong></td></tr>
+    
+<tr><td class="decor pkg-content-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><table><tr><td class="multicolumn"><a href="pprint.html">pprint</a><br>
+</td><td class="multicolumn"></td><td class="multicolumn"></td><td class="multicolumn"></td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text"><a href="builtins.html#object">builtins.object</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="Hotel.html#Hotel">Hotel</a>
+</dt></dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Hotel">class <strong>Hotel</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor"><span class="code">&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Hotel-__init__"><strong>__init__</strong></a>(self)</dt><dd><span class="code">Crea&nbsp;una&nbsp;lista&nbsp;che&nbsp;accoglierà&nbsp;gli&nbsp;oggetti&nbsp;stanza</span></dd></dl>
+
+<dl><dt><a name="Hotel-aggiungi_stanza"><strong>aggiungi_stanza</strong></a>(self, stanza)</dt><dd><span class="code">Aggunge&nbsp;una&nbsp;stanza&nbsp;alla&nbsp;lista<br>
+&nbsp;<br>
+:param&nbsp;stanza:&nbsp;aggiunge&nbsp;alla&nbsp;lista&nbsp;__stanze&nbsp;un&nbsp;oggetto&nbsp;che&nbsp;deve&nbsp;essere&nbsp;di&nbsp;tipo&nbsp;Stanza</span></dd></dl>
+
+<dl><dt><a name="Hotel-get_ListaS"><strong>get_ListaS</strong></a>(self)</dt><dd><span class="code">:return:&nbsp;Ritorna&nbsp;l'attributo&nbsp;lista&nbsp;__stanze</span></dd></dl>
+
+<dl><dt><a name="Hotel-get_num_stanze"><strong>get_num_stanze</strong></a>(self)</dt><dd><span class="code">:return:&nbsp;ritorna&nbsp;il&nbsp;numero&nbsp;di&nbsp;stanze&nbsp;presenti&nbsp;nella&nbsp;lista</span></dd></dl>
+
+<dl><dt><a name="Hotel-get_stanza"><strong>get_stanza</strong></a>(self, i)</dt><dd><span class="code">Seleziona&nbsp;una&nbsp;stanza&nbsp;utilizzando&nbsp;un&nbsp;indice&nbsp;che&nbsp;parte&nbsp;da&nbsp;1&nbsp;anziche&nbsp;da&nbsp;0<br>
+&nbsp;<br>
+:param&nbsp;i:&nbsp;è&nbsp;l'indice&nbsp;che&nbsp;indica&nbsp;la&nbsp;posizione&nbsp;nella&nbsp;lista&nbsp;e&nbsp;il&nbsp;primo&nbsp;indice&nbsp;parte&nbsp;da&nbsp;1<br>
+:return:&nbsp;ritorna&nbsp;l'oggetto&nbsp;stanza&nbsp;corripondente&nbsp;all'indice&nbsp;nella&nbsp;lista&nbsp;__stanze&nbsp;nel&nbsp;oggetto&nbsp;<a href="#Hotel">Hotel</a></span></dd></dl>
+
+<dl><dt><a name="Hotel-lista_iterabile"><strong>lista_iterabile</strong></a>(self, x)</dt><dd><span class="code">estrae&nbsp;un&nbsp;getto&nbsp;dalla&nbsp;lista&nbsp;__stanze&nbsp;nel&nbsp;oggetto&nbsp;<a href="#Hotel">Hotel</a>&nbsp;indicato&nbsp;dal&nbsp;paramentro<br>
+&nbsp;<br>
+:param&nbsp;x:&nbsp;rappresenta&nbsp;l'indice&nbsp;di&nbsp;selezione&nbsp;con&nbsp;il&nbsp;primo&nbsp;indiche&nbsp;che&nbsp;parte&nbsp;da&nbsp;0<br>
+:return:&nbsp;ritorna&nbsp;l'oggetto&nbsp;che&nbsp;appartiene&nbsp;all'indice</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor functions-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td></tr>
+    
+<tr><td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt><a name="-aggiornaOggHotel"><strong>aggiornaOggHotel</strong></a>(cliente, numeroStanze, listaOggetti, h1)</dt><dd><span class="code">La&nbsp;funzione&nbsp;ha&nbsp;lo&nbsp;scopo&nbsp;di&nbsp;aggiornare&nbsp;l'oggetto&nbsp;Stanza&nbsp;contenuto&nbsp;nel&nbsp;oggetto&nbsp;<a href="#Hotel">Hotel</a>,&nbsp;facendo&nbsp;scegliere&nbsp;le&nbsp;sole&nbsp;stanze&nbsp;libere/&nbsp;disponibili<br>
+&nbsp;<br>
+:param&nbsp;cliente:&nbsp;deve&nbsp;essere&nbsp;un&nbsp;oggetto&nbsp;Cliente<br>
+:param&nbsp;numeroStanze:&nbsp;indica&nbsp;il&nbsp;numero&nbsp;di&nbsp;stanze&nbsp;presenti&nbsp;nella&nbsp;struttura<br>
+:param&nbsp;listaOggetti:&nbsp;rappresenta&nbsp;la&nbsp;lista&nbsp;di&nbsp;oggetti&nbsp;Stanza&nbsp;presenti&nbsp;nell'oggetto&nbsp;<a href="#Hotel">Hotel</a><br>
+:param&nbsp;h1:&nbsp;rappresenta&nbsp;l'oggetto&nbsp;<a href="#Hotel">Hotel</a></span></dd></dl>
+ <dl><dt><a name="-aggiornaPrenotazionePerCliente"><strong>aggiornaPrenotazionePerCliente</strong></a>(numeroStanze, listaOggetti, nome, cognome, h1)</dt><dd><span class="code">La&nbsp;funzione&nbsp;ha&nbsp;lo&nbsp;scopo&nbsp;di&nbsp;aggiornare&nbsp;l'oggetto&nbsp;Stanza&nbsp;contenuto&nbsp;nel&nbsp;oggetto&nbsp;<a href="#Hotel">Hotel</a>,&nbsp;facendo&nbsp;scegliere&nbsp;le&nbsp;sole&nbsp;stanze&nbsp;prenotate&nbsp;da&nbsp;un&nbsp;preciso&nbsp;cliente<br>
+&nbsp;<br>
+:param&nbsp;numeroStanze:&nbsp;indica&nbsp;il&nbsp;numero&nbsp;di&nbsp;stanze&nbsp;presenti&nbsp;nella&nbsp;struttura<br>
+:param&nbsp;listaOggetti:&nbsp;rappresenta&nbsp;la&nbsp;lista&nbsp;di&nbsp;oggetti&nbsp;Stanza&nbsp;presenti&nbsp;nell'oggetto&nbsp;<a href="#Hotel">Hotel</a><br>
+:param&nbsp;nome:&nbsp;indica&nbsp;il&nbsp;nome&nbsp;del&nbsp;cliente&nbsp;da&nbsp;cercare<br>
+:param&nbsp;cognome:&nbsp;indica&nbsp;il&nbsp;cognome&nbsp;del&nbsp;cliente&nbsp;da&nbsp;cercare<br>
+:param&nbsp;h1:&nbsp;rappresenta&nbsp;l'oggetto&nbsp;<a href="#Hotel">Hotel</a></span></dd></dl>
+ <dl><dt><a name="-aggiornaPrenotazionePerStanza"><strong>aggiornaPrenotazionePerStanza</strong></a>(numeroStanze, listaOggetti, h1)</dt><dd><span class="code">La&nbsp;funzione&nbsp;ha&nbsp;lo&nbsp;scopo&nbsp;di&nbsp;aggiornare&nbsp;l'oggetto&nbsp;Stanza&nbsp;contenuto&nbsp;nel&nbsp;oggetto&nbsp;<a href="#Hotel">Hotel</a>,&nbsp;facendo&nbsp;scegliere&nbsp;le&nbsp;sole&nbsp;stanze&nbsp;prenotate<br>
+&nbsp;<br>
+:param&nbsp;numeroStanze:&nbsp;indica&nbsp;il&nbsp;numero&nbsp;di&nbsp;stanze&nbsp;presenti&nbsp;nella&nbsp;struttura<br>
+:param&nbsp;listaOggetti:&nbsp;rappresenta&nbsp;la&nbsp;lista&nbsp;di&nbsp;oggetti&nbsp;Stanza&nbsp;presenti&nbsp;nell'oggetto&nbsp;<a href="#Hotel">Hotel</a><br>
+:param&nbsp;h1:&nbsp;rappresenta&nbsp;l'oggetto&nbsp;<a href="#Hotel">Hotel</a></span></dd></dl>
+ <dl><dt><a name="-cancellaClienteCsv"><strong>cancellaClienteCsv</strong></a>(utente, file, f)</dt><dd><span class="code">Cancella&nbsp;un&nbsp;utente&nbsp;dal&nbsp;file&nbsp;CSV&nbsp;riscrivendolo&nbsp;e&nbsp;tralasciando&nbsp;la&nbsp;riga&nbsp;dell'utente<br>
+&nbsp;<br>
+:param&nbsp;utente:&nbsp;utente&nbsp;che&nbsp;deve&nbsp;essere&nbsp;eliminato<br>
+:param&nbsp;file:&nbsp;sarebbe&nbsp;il&nbsp;file&nbsp;database&nbsp;CSV&nbsp;che&nbsp;vine&nbsp;riscritto<br>
+:param&nbsp;f:&nbsp;sarebbe&nbsp;il&nbsp;file&nbsp;database&nbsp;CSV&nbsp;che&nbsp;viene&nbsp;aperto&nbsp;in&nbsp;modalita&nbsp;lettuta&nbsp;esternamente</span></dd></dl>
+ <dl><dt><a name="-inserimento_intero"><strong>inserimento_intero</strong></a>(stringa)</dt><dd><span class="code">Valuta&nbsp;se&nbsp;la&nbsp;stringa&nbsp;inserita&nbsp;a&nbsp;video&nbsp;è&nbsp;un&nbsp;in&nbsp;intero&nbsp;positivo,&nbsp;se&nbsp;non&nbsp;lo&nbsp;è&nbsp;continua&nbsp;a&nbsp;riproporre&nbsp;di&nbsp;inserire&nbsp;la&nbsp;stringa&nbsp;finché&nbsp;è&nbsp;valida&nbsp;per&nbsp;la&nbsp;conversione<br>
+&nbsp;<br>
+:param&nbsp;stringa:&nbsp;stringa&nbsp;da&nbsp;testare<br>
+:return:&nbsp;ritorna&nbsp;il&nbsp;valore&nbsp;della&nbsp;stringa&nbsp;convertito&nbsp;in&nbsp;int</span></dd></dl>
+ <dl><dt><a name="-salvaCliente"><strong>salvaCliente</strong></a>(utente, listaUtenti)</dt><dd><span class="code">la&nbsp;funzione&nbsp;ha&nbsp;lo&nbsp;scopo&nbsp;di&nbsp;aggiungere&nbsp;un&nbsp;utente,&nbsp;che&nbsp;è&nbsp;rappresentato&nbsp;da&nbsp;una&nbsp;lista&nbsp;[nome,&nbsp;cognome],&nbsp;alla&nbsp;lista&nbsp;di&nbsp;liste&nbsp;salvata&nbsp;sul&nbsp;file&nbsp;dataBaseClienti.py<br>
+&nbsp;<br>
+:param&nbsp;utente:&nbsp;è&nbsp;rappresentato&nbsp;da&nbsp;una&nbsp;lista&nbsp;[nome,&nbsp;cognome]<br>
+:param&nbsp;listaUtenti:&nbsp;rappresenta&nbsp;da&nbsp;una&nbsp;lista&nbsp;di&nbsp;liste&nbsp;che&nbsp;raccoglie&nbsp;tutti&nbsp;gli&nbsp;utenti&nbsp;rappresentati&nbsp;con&nbsp;una&nbsp;lista&nbsp;[nome,&nbsp;cognome]<br>
+:return:</span></dd></dl>
+ <dl><dt><a name="-salvaClienteCsv"><strong>salvaClienteCsv</strong></a>(utente, file)</dt><dd><span class="code">Salva&nbsp;i&nbsp;dati&nbsp;utente&nbsp;nel&nbsp;database&nbsp;CSV<br>
+&nbsp;<br>
+:param&nbsp;utente:&nbsp;indica&nbsp;i&nbsp;dati&nbsp;dell'utente&nbsp;da&nbsp;salvare<br>
+:param&nbsp;file:&nbsp;indica&nbsp;in&nbsp;quale&nbsp;file&nbsp;salvare<br>
+:return:</span></dd></dl>
+ <dl><dt><a name="-verifica_int_positivo"><strong>verifica_int_positivo</strong></a>(stringa)</dt><dd><span class="code">verifica&nbsp;che&nbsp;la&nbsp;stringa&nbsp;inserita&nbsp;sia&nbsp;un&nbsp;numero&nbsp;intero&nbsp;positivo&nbsp;maggore&nbsp;di&nbsp;zero<br>
+&nbsp;<br>
+:param&nbsp;stringa:&nbsp;è&nbsp;il&nbsp;valore&nbsp;stringa&nbsp;da&nbsp;confrontare<br>
+:return:&nbsp;ritorna&nbsp;True&nbsp;solo&nbsp;se&nbsp;si&nbsp;inserisce&nbsp;un&nbsp;numero&nbsp;intero&nbsp;positivo&nbsp;maggiore&nbsp;di&nbsp;zero</span></dd></dl>
+</td></tr></table>
+</body></html>
