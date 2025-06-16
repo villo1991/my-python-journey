@@ -1,1 +1,0 @@
-nomeFile = 'videoteca.txt'
