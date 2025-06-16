@@ -1,0 +1,44 @@
+Gestione di un Ristorante
+========================================================================================
+Scrivere un programma in Python per gestire un ristorante.
+Il programma dovrà consentire di registrare ordini, visualizzare il menu, calcolare
+il totale degli ordini e gestire i pagamenti.
+
+creare un menù che offra le seguenti voci:
+
+1) Visualizzazione del Menu:
+   Il programma deve visualizzare un menu con diversi piatti e i loro prezzi.
+
+2) Registrazione degli Ordini:
+   >> I camerieri devono poter inserire gli ordini scegliendo i piatti dal menu.
+   >> esempio, il tavolo X ha scelto i piatti A, B, C
+
+3) Calcolo del Totale:
+   Il programma deve calcolare il totale dell'ordine basandosi sui piatti scelti.
+
+4) Riepilogo degli ordini, con le seguenti sotto-opzioni:
+  4A) Dovrà essere possibile segnare come PAGATO un determinato ordine
+  4B) Dovrà essere possibile visualizzare a video l'elenco di tutti gli ordini della
+      giornata, sia quelli già pagati che quelli non ancora pagati
+
+5) Salvataggio degli ordini
+   per salvare gli ordini della giornata su file
+
+6) Caricamento degli ordini
+   per caricare da file gli ordini di una determinata giornata
+
+7) Uscita:
+   per uscire dal programma
+
+
+addendum e note finali:
+>> modificare il progetto in modo da offrire ai camerieri la possibilità di modificare
+   un ordine, aggiungendo o rimuovendo un piatto dall'ordinazione fatta
+
+>> fare in modo che la precedente funzione sia attuabile solo agli ordini del giorno
+   corrente e solo se non ancora pagati
+
+>> gestire, come imparato a lezione, tutti i possibili scenari di crash mediante uso
+   delle eccezioni
+
+>> creare come di consueto la documentazione tramite docstrings e pydoc
