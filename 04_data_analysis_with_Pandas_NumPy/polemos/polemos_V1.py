@@ -1,7 +1,5 @@
 from polemos_V1_Object import Clean_dataframe, Menu
 
-#C:\Users\villa\Downloads\wine+quality\winequality-red.csv
-#"wdbc_corrupted.csv"
 if __name__ == "__main__":
     menu = Menu()
     ciclo = True
